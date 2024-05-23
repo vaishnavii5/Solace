@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    padding-top: 15%;
+}
+.about-text{
+    color: #120623;
+    justify-content: center;
+    text-align: center;
+}
+.about h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: "Philosopher", sans-serif;
+}

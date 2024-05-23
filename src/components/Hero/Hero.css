@@ -1,0 +1,47 @@
+.hero{
+    position: relative;
+    width: 100%;
+    min-height: 110vh;
+    background: rgb(232,125,198);
+    background: radial-gradient(circle, rgba(232,125,198,1) 0%, rgba(241,175,220,1) 35%, rgba(250,225,242,1) 100%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+    width: 50%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    height: auto;
+    width: 100%;
+}
+.hero-text{
+    color: #120623;
+    text-align: center;
+    max-width: 1050px;
+    margin-top: -275px;
+}
+.hero-text h1{
+    color: #f4eefc;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Philosopher", sans-serif;
+    margin-bottom: 30px;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 20px auto 20px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
